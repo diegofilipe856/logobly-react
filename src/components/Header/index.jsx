@@ -1,6 +1,6 @@
 import logo from "../../assets/Logo.png";
 import ArrowDown from "../../assets/arrowdown2.svg?react";
-import UserSquare from "../../assets/usersquare.svg?react";
+import UserSquare from "../../assets/Usersquare.svg?react";
 import HamburgerMenu from "../../assets/hambergermenu.svg?react";
 import "./Header.styles.css";
 import Dropdown from "../Dropdown";
