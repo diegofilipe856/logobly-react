@@ -1,0 +1,26 @@
+.dropdown-menu {
+  position: absolute;
+  top: calc(100% + 18px);
+  left: 0;
+  z-index: 10;
+  min-width: 160px;
+  margin: 0;
+  padding: 8px 0;
+  list-style: none;
+  background-color: rgba(30, 30, 30, 0.96);
+  border: 1px solid rgba(175, 252, 65, 0.45);
+  border-radius: 8px;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.32);
+}
+
+.dropdown-menu li {
+  padding: 10px 14px;
+  color: var(--primary-color);
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.dropdown-menu li:hover {
+  background-color: rgba(175, 252, 65, 0.12);
+  color: var(--secondary-color);
+}

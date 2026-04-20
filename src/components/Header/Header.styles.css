@@ -1,0 +1,73 @@
+.logo {
+  padding-left: 32px;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  gap: 88px;
+  margin-right: 34px;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 102.34px;
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-top: 59px;
+  width: 100%;
+}
+.navegacao {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.simple {
+  color: white;
+  &:hover {
+    color: #affc41;
+    cursor: pointer;
+  }
+}
+.nav-dropdown {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.nav-dropdown-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font: inherit;
+  color: var(--primary-color);
+}
+
+.nav-dropdown-button:hover,
+.nav-dropdown-button[aria-expanded="true"] {
+  color: var(--secondary-color);
+}
+
+.nav-dropdown-button svg {
+  flex-shrink: 0;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  gap: 18px;
+}
+.icon-button {
+  color: var(--primary-color);
+  &:hover {
+    color: var(--secondary-color);
+    cursor: pointer;
+  }
+}

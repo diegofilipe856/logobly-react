@@ -1,0 +1,118 @@
+button {
+  background-color: transparent;
+  border: none;
+}
+
+.icons button {
+  fill: white;
+  &:hover {
+    fill: #affc41;
+    cursor: pointer;
+  }
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+.principal {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 893px;
+  height: 217px;
+  font-size: 28px;
+}
+.menor {
+  width: 894px;
+  height: 42px;
+  text-align: center;
+  color: white;
+  font-family: Arial;
+}
+
+.invest-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.invest-button {
+  background-color: var(--secondary-color);
+  color: var(--background-primary);
+  width: 185px;
+  height: 60px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  transition:
+    background-color 0.2s ease,
+    border-color 0.2s ease,
+    box-shadow 0.2s ease,
+    color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.invest-button:hover {
+  background-color: var(--background-secondary);
+  border-color: var(--secondary-color);
+  box-shadow: 0 8px 24px rgba(175, 252, 65, 0.18);
+  color: var(--secondary-color);
+  transform: translateY(-2px);
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  color: var(--primary-color);
+  margin-top: 80px;
+  margin-left: 641px;
+  margin-right: 641px;
+}
+
+.caixa-esquerda,
+.caixa-direita {
+  display: flex;
+  padding-top: 30px;
+  gap: 16px;
+  flex-direction: column;
+  font-size: 12px;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 300px;
+  height: 152px;
+  box-shadow: 0px 4px 4px rgba(30, 30, 30, 0.25);
+  & h2 {
+    color: var(--secondary-color);
+    font-weight: 500;
+  }
+  & h3 {
+    font-weight: 400;
+  }
+}
+
+.caixa-direita {
+  border-left: solid green 2px;
+  align-items: flex-start;
+  text-align: left;
+  & h2,
+  h3 {
+    margin-left: 20px;
+  }
+}
+
+.caixa-esquerda {
+  border-right: solid green 2px;
+  align-items: flex-end;
+  text-align: right;
+
+  & h2,
+  h3 {
+    margin-right: 20px;
+  }
+}
